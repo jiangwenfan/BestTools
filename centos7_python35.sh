@@ -1,5 +1,6 @@
 ﻿#!/bin/bash
 #version 1.0 centos7快速安装python3.5
+#1.1会将报错信息导出来作为日志文件。
 
 echo "正在开始安装前的准备"
 yum -y install wget gcc > /dev/null && echo "准备完毕，开始安装"
