@@ -1,4 +1,3 @@
-import xlwt
 import random
 
 shu1 = 0
@@ -9,7 +8,9 @@ shu3 = 2
 
 
 
-
+a=False
+if(bool(1-a)):
+	print("ookokok")
 
 
 
