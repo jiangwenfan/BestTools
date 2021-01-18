@@ -1,0 +1,9 @@
+用来记单词和日常对话。
+
+采用微信聊天的方式,进行记忆单词互动。
+[公众号、后期使用自己的App]
+
+function: createCombination
+create a document use some sentences.
+
+输入文章片段，打乱进行重新组合，输出到网站页面上。通过js实现点击文章片段下面的一部分，出现翻译的效果。
