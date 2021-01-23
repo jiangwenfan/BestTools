@@ -1,4 +1,5 @@
 #this is a program that helps you remember words.
+#根据输入的单词文件(words.csv)输出产生不同单词列表文件。
 #generate different lists of words according to different
 #chaos(混乱) shun(顺序) fan(倒序)
 
