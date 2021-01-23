@@ -121,6 +121,7 @@ def create_file(mode,type='xls'):
 
 def main():
     print("this is create words list program")
+    print("请事先准备好words.csv这个原始文件.  --> 推荐格式为:[主持人,presenter]这种类型的")
     #file_name = str(input("please input origin file path:"))
     str_mode = str(input("please input words list mode:[chaos,shun,fan]:"+"\n"))
     str_type = str(input("please input view file type: [csv,xls]: ---->默认为xls"+"\n"))
