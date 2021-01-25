@@ -61,3 +61,9 @@ set global validate_password_number_count=3;
 set global validate_password_special_char_count=0;
 set global validate_password_length=3;	
 
+echo -e "\n设置mysql密码:
+
+set password for root@localhost=password("admin123KK@@"); 
+flush privileges;
+"
+

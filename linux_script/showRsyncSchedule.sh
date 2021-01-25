@@ -19,7 +19,14 @@ do
 		echo "当前大小是:" ${sizech}
 		previousSizeC=${sizec}
 	else
-		echo -e "\033[41;30m centos官方源同步速度为0\033[0m"
+		#echo -e "\033[41;30m centos官方源同步速度为0\033[0m"
+        process=`ps aux|grep rsync | grep -v auto |grep -v SCREEN|wc -l`
+        if [ $process -lt 4 ]; then
+            echo "有进程中断了!"
+            echo "当前进程数:" $process
+        else
+		    echo -e "\033[41;30m centos官方源同步速度为0\033[0m"
+        fi
 	fi
 	
 	if [ ${sizee} -gt ${previousSizeE} ]; then
@@ -28,7 +35,14 @@ do
 		echo "当前大小是:" ${sizeeh}
 		previousSizeE=${sizee}
 	else
-		echo -e  "\033[41;30m epel扩展源同步速度为0\033[0m"
+		#echo -e  "\033[41;30m epel扩展源同步速度为0\033[0m"
+        process=`ps aux|grep rsync | grep -v auto |grep -v SCREEN|wc -l`
+        if [ $process -lt 4 ]; then
+            echo "有进程中断了!"
+            echo "当前进程数:" $process
+        else
+		    echo -e  "\033[41;30m epel扩展源同步速度为0\033[0m"
+        fi
 	fi
 	
 	echo -e "\n\n"
