@@ -1,0 +1,28 @@
+<html>
+<head>
+    
+    <link rel="stylesheet" type="text/css" href="/static/indexContent/newest.css">
+</head>
+
+<body>
+    <div id="left1">
+        <h4>全部教程</h4>
+        <div>
+            分类
+        </div>
+        <div id="content1">
+            所有内容
+        </div>
+    </div>
+    <div id="left2">
+        <div class="content2">
+            <h4>最新帖子</h4>
+            <div class="content"></div>
+        </div>
+        <div class="content3">
+            <h4>热门帖子</h4>
+            <div class="content"></div>
+        </div>
+    </div>
+</body>
+</html>
