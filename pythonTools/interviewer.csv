@@ -1,0 +1,3 @@
+1.如何启动mysql服务?,/etc/init.d/mysqld start;service mysqld start;systemctl start mysqld 
+2.检测端口是否运行?,lsof -i :3306-------netstat -lntup 3306 
+3.设置或修改mysql密码?,mysql -uroot -padmin123 -e "set password for root = password('password')"
