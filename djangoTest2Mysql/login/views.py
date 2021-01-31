@@ -4,3 +4,4 @@ from login.models import UserInfo
 #def registered(request):
 
 #def login(request):
+render()
