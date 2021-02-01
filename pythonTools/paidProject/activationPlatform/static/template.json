@@ -1,0 +1,11 @@
+[
+    {
+        "cpuInfo":"Intel(R) Xeon(R) Gold 6133 CPU @ 2.50GHz",
+        "macInfo":"00:1B:44:11:3A:B7",
+        "memoryInfo":"hailishi Information Handle",
+        "gpuInfo":"Cirrus Logic GD 5446",
+        "keyInfo":"6B31Vd8yQC-KsPX6cRpvE-S0u3oHG7DB-T2IgzleiYM",
+        "deviceInfo":"win10 test1",
+        "comment":"测试设备2"
+    }
+]

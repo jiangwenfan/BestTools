@@ -20,5 +20,6 @@ from simpleShow import views
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^showKey',views.showKey),
+    url(r'^add',views.add),
     url(r'',views.index),
 ]
