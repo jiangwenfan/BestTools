@@ -48,7 +48,7 @@ def showKey(request):
     else:
         print("value is error!")
 def add(request):
-    with open('/var/www/9999/BestTools/pythonTools/paidProject/activationPlatform/static/info.json','r') as f:
+    with open('static/info.json','r') as f:
         infoList = json.load(f) 
     #select
     currentKey = infoList[0]['keyInfo']
@@ -65,6 +65,9 @@ def add(request):
         ai.deviceInfo = infoList[0]['deviceInfo'] 
         ai.comment = infoList[0]['comment']
         ai.save()
+        data = {"status":"success"}
+        with open('static/data.json','w') as f:
+            json.dump(data,f)
         return HttpResponse("add register ok")
     elif len(ais) == 1:
         #exists
