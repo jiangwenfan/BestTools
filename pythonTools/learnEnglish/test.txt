@@ -1,8 +1,0 @@
-a
-combination,组合
-manual,说明书
-sentences 句子
-
-vanccine 疫苗
-coronavir 新灌
-
