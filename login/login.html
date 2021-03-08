@@ -1,0 +1,28 @@
+﻿<html>  
+<!-- 负责收集用户填写的登录信息 -->
+
+<head><meta charset="utf-8"></head>  
+
+<body>
+<h2>用户登录</h2>
+
+<form name="LoginForm" method="post" action="login.php" onSubmit="return InputCheck(this)">  
+<p>  
+<label for="username" class="label">用户名:</label>  
+<input id="username" name="username" type="text" class="input" />  
+<p/>  
+
+<p>  
+<label for="password" class="label">密 码:</label>  
+<input id="password" name="password" type="password" class="input" />  
+<p/>  
+
+<p>  
+<input type="submit" name="submit" value="  确 定  " class="left" />  
+</p>  
+</form>  
+
+<!--
+参考来源：http://www.php.cn/php-weizijiaocheng-381914.html
+-->
+</body></html>

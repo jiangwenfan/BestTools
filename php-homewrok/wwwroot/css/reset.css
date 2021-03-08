@@ -1,0 +1,12 @@
+/*css reset*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: "microsoft yahei";
+	border: none;
+	outline: none;
+}
+a{
+	text-decoration: none;
+}
